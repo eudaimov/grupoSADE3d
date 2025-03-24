@@ -11,17 +11,17 @@ const myCanvas =  document.getElementById('Webgl')
 
 
 const scene = new THREE.Scene();
-const geometria = new THREE.BoxGeometry(1,1,1);
-const textureLoader = new THREE.TextureLoader();
-const matcapTexture = textureLoader.load('matcap.png')
-matcapTexture.colorSpace = THREE.SRGBColorSpace;
-const material = new THREE.MeshMatcapMaterial();
-const materialPlataforma = new THREE.MeshStandardMaterial({
-  color: new THREE.Color(0xffffff), // Rojo brillante (hexadecimal para rojo puro)
-  roughness: 0.5, // Reduce la aspereza para simular una superficie plástica
-  metalness: 0.1, // Leve metalness para simular el brillo característico
-});
-material.matcap = matcapTexture;
+// const geometria = new THREE.BoxGeometry(1,1,1);
+// const textureLoader = new THREE.TextureLoader();
+// const matcapTexture = textureLoader.load('matcap.png')
+// matcapTexture.colorSpace = THREE.SRGBColorSpace;
+// const material = new THREE.MeshMatcapMaterial();
+// const materialPlataforma = new THREE.MeshStandardMaterial({
+//   color: new THREE.Color(0xffffff), // Rojo brillante (hexadecimal para rojo puro)
+//   roughness: 0.5, // Reduce la aspereza para simular una superficie plástica
+//   metalness: 0.1, // Leve metalness para simular el brillo característico
+// });
+// material.matcap = matcapTexture;
 let numero3d;
 
 
