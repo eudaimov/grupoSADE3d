@@ -16,11 +16,11 @@ const scene = new THREE.Scene();
 // const matcapTexture = textureLoader.load('matcap.png')
 // matcapTexture.colorSpace = THREE.SRGBColorSpace;
 // const material = new THREE.MeshMatcapMaterial();
-// const materialPlataforma = new THREE.MeshStandardMaterial({
-//   color: new THREE.Color(0xffffff), // Rojo brillante (hexadecimal para rojo puro)
-//   roughness: 0.5, // Reduce la aspereza para simular una superficie plástica
-//   metalness: 0.1, // Leve metalness para simular el brillo característico
-// });
+const materialPlataforma = new THREE.MeshStandardMaterial({
+  color: new THREE.Color(0xffffff), // Rojo brillante (hexadecimal para rojo puro)
+  roughness: 0.5, // Reduce la aspereza para simular una superficie plástica
+  metalness: 0.1, // Leve metalness para simular el brillo característico
+});
 // material.matcap = matcapTexture;
 let numero3d;
 
